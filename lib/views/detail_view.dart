@@ -1,6 +1,5 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:news_app/components/DetailDivider.dart';
 import 'package:news_app/components/DetailTime.dart';
@@ -22,7 +21,7 @@ class NewsDetailView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppColors.primary,
+        backgroundColor: AppColors.blue,
         actions: article.url != null
             ? [
                 IconButton(

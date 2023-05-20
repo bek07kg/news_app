@@ -35,7 +35,7 @@ class _HomeViewState extends State<HomeView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: AppColors.primary,
+        backgroundColor: AppColors.blue,
         leading: const Icon(Icons.newspaper_outlined),
         title: const Text(AppText.topNewsAppBarTitle),
         actions: [
@@ -79,7 +79,7 @@ class _HomeViewState extends State<HomeView> {
         },
         child: Icon(
           Icons.search,
-          color: AppColors.primary,
+          color: AppColors.blue,
         ),
       ),
     );

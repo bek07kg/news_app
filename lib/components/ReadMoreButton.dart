@@ -12,7 +12,7 @@ class ReadMoreButton extends StatelessWidget {
     return ElevatedButton(
       onPressed: onPressed,
       style: ElevatedButton.styleFrom(
-        backgroundColor: AppColors.primary,
+        backgroundColor: AppColors.blue,
       ),
       child: Text(AppText.readMore),
     );

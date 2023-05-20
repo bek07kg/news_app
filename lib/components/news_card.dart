@@ -14,7 +14,7 @@ class NewsCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: AppColors.primary,
+      color: AppColors.blue,
       child: InkWell(
         onTap: () {
           Navigator.push(
