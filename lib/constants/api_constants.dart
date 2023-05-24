@@ -1,5 +1,5 @@
 class ApiConst {
-  static const String apiKey = "a040d5c4c5b949548a8601a8ffc201e8";
+  static const String apiKey = "5b245bdd269b4324a88ce005cbfcd32e";
   static String topNews([String? domain]) =>
       "http://newsapi.org/v2/top-headlines?country=${domain ?? "us"}&apiKey=$apiKey";
   static String searchNews(String? text) =>
